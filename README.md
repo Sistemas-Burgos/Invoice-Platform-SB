@@ -203,6 +203,13 @@ It is mandatory to have Chocolatey installed and configured, if not the case che
     <code> $ PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force</code><br/>
     <code> $ Add-PoshGitToProfile -AllUsers -AllHosts</code><br/>
 
+
+# Contibutors agreement
+## Naming convention
+We are going to use next rules to create variables, functions or branches.
+### Branches
+(...)
+
 ---
 
 ## In developing... 
