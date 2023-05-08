@@ -14,7 +14,7 @@ For all packages in this section check [How to install python packages](#python-
 - Pdfkit v1.0.0+
 - Jinja2 v3.1.2+
 #### Chocolatey packages
-For all packages in this section check [How to install chocolatey packages](#chocolatey-packages-installation.-example:-wkhtmltopdf) section.
+For all packages in this section check [How to install chocolatey packages](#chocolatey-packages-installation) section.
 - wkhtmltopdf v0.12.6+
 
 ### Optional programs (highly recommended)
@@ -24,7 +24,7 @@ For all packages in this section check [How to install chocolatey packages](#cho
 
 ## Considerations installing tools.
 Special considerations in the installation of the needed tools. If the tool is not in this section you can click on "next" to all (default installation).
-### Python installation
+### Python installation <a name="python-installation"></a>
 Be sure to check the following checkboxes (they are in order of appearance):
 1. Run as Administrator.
 2. Check **Add Python 3.9 to PATH** then select **Customize installation**.
@@ -72,7 +72,7 @@ How to install and verify:
     1.0.0
     ```
 
-### Chocolatey installation
+### Chocolatey installation <a name="chocolatey-installation"></a>
 For this installation is not needed download any file from Explorer. Just follow next steps:
 1. Run *PowerShell* as Administrator and enter next commands:<br/>
     <code> $ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Confirm</code>
@@ -85,7 +85,7 @@ For this installation is not needed download any file from Explorer. Just follow
     1.3.0
     ```
 
-### Chocolatey packages installation. Example: Wkhtmltopdf
+### Chocolatey packages installation. Example: Wkhtmltopdf <a name="chocolatey-packages-installation"></a>
 Process to install chocolatey packages. This example is focused on Wkhtmltopdf. However, it can be applied to other packages.</br>
 It is mandatory to have Chocolatey installed and configured, if not the case check [Python installation](#python-installation) section.
 
